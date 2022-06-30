@@ -1,0 +1,60 @@
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /* transition */
+    transition: all .3s ease-in-out;
+}
+.btn.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--light-gray);
+}
+.btn.btn-primary:hover{
+    background-color: var(--primary-dark-color);  
+}
+.btn.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--light-gray);
+}
+.btn.btn-secondary:hover{
+    background-color: var(--secondary-dark-color);  
+}
+.btn.btn-success{
+    background-color: var(--success-color);
+    color: var(--light-gray);
+}
+.btn.btn-success:hover{
+    background-color: var(--success-dark-color);  
+}
+.btn.btn-danger{
+    background-color: var(--danger-color);
+    color: var(--light-gray);
+}
+.btn.btn-danger:hover{
+    background-color: var(--danger-dark-color);  
+}
+.btn.btn-warning{
+    background-color: var(--warning-color);
+    color: var(--light-gray);
+}
+.btn.btn-warning:hover{
+    background-color: var(--warning-dark-color);  
+}
+
+
+/* input component */
+
+input[type="text"], input[type="password"] {
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}

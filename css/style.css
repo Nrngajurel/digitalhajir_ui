@@ -1,0 +1,128 @@
+/* reset default style */
+:root{
+    --primary-color: #ff5a5f;
+    --secondary-color: #2f3640;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    /* variation of gray */
+    --light-gray: #f8f9fa;
+    --gray: #dee2e6;
+    --dark-gray: #343a40;
+    --darker-gray: #2f3640;
+    --light-dark-gray: #6c757d;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/* declear variable primary color */
+
+body{
+    background: var(--light-gray);
+}
+
+/* primary nav style */
+
+nav.primary-nav{
+    background: var(--gray);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    display: flex;
+    justify-content: space-between;
+    color: var(--light-color);
+    padding: 2rem 3rem;
+    z-index: 100;
+}
+
+/* primary nav list */
+nav.primary-nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav.primary-nav ul li{
+    margin-right: 1rem;
+}
+nav.primary-nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* hero section style */
+.hero{
+    /* border radius top  */
+    border-top-left-radius: 5rem;
+    padding: 3rem 0;
+    min-height: calc(100vh - 5rem);
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem;
+
+}
+/* hero flex row in small media */
+@media(max-width: 991px){
+    .hero{
+        flex-direction: column;
+    }
+}
+.hero-image{
+    max-height: calc(100vh - 10rem);
+}
+
+
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* component */
+
+
+.btn{
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    transition: all .15s ease-in-out;
+    border: 1px solid transparent;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    border-color: var(--light-color);
+}
+.btn:hover{
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.btn-primary{
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.btn-primary:hover{
+    color: var(--primary-color);
+    background-color: var(--light-gray);
+    border-color: var(--primary-color);
+}
