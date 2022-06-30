@@ -3,13 +3,9 @@
 ``Note: Not any Framework used``
 
 
-## Screenshot
-<div style="display: flex;">
-
-![ScreenShot](https://github.com/Nrngajurel/digitalhajir_ui/blob/main/screenshots/1.png?raw=true)
-
-<div style="margin: 10px">
-</div>
-
-![ScreenShot](https://github.com/Nrngajurel/digitalhajir_ui/blob/main/screenshots/2.png?raw=true)
-</div>
+<table>
+  <tr>
+    <td valign="top"><img src="https://github.com/Nrngajurel/digitalhajir_ui/blob/main/screenshots/1.png?raw=true"/></td>
+    <td valign="top"><img src="https://github.com/Nrngajurel/digitalhajir_ui/blob/main/screenshots/2.png?raw=true"/></td>
+  </tr>
+</table>
